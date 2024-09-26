@@ -1,0 +1,78 @@
+--- 
+
+layout: default 
+title: Christian Noss
+class: grid
+
+---
+
+<div class="section herotext">
+{% capture content %}{% include intro.html %}{% endcapture %}
+{{ content | markdownify }}
+</div>
+
+<section class="section has-seperator">
+  <h2><i class="icofont-rocket is-inline"></i>Aktuelle Themenvorschläge</h2>
+  {% capture content %}{% include fields-of-interest.html %}{% endcapture %}
+  {{ content | markdownify }}
+</section>
+
+<section class="section" style="margin-top: 3em; ">
+  <h2><i class="icofont-direction-sign  is-inline"></i>Neue Spielregeln ab dem Sommersemester 2024</h2>
+  {% capture content %}{% include shift-2024.html %}{% endcapture %}
+  {{ content | markdownify }}
+</section>
+
+<section class="section has-seperator">
+  <h2><i class="icofont-chart-flow-2 is-inline"></i>Ablauf</h2>
+
+  <details>
+    <summary><h3>Vor der Arbeit</h3></summary>
+    <div class="details-content">
+      <div>
+      {% capture content %}{% include preparing-the-thesis.html %}{% endcapture %}
+      {{ content | markdownify }}
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><h3>Während der Arbeit</h3></summary>
+    <div class="details-content">
+      <div>
+      {% capture content %}{% include working-on-the-thesis.html %}{% endcapture %}
+      {{ content | markdownify }}
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><h3>Abschluss der Arbeit</h3></summary>
+    <div class="details-content">
+      <div>
+      {% capture content %}{% include after-finishing.html %}{% endcapture %}
+      {{ content | markdownify }}
+      </div>
+    </div>
+  </details>
+
+</section>
+
+<section class="section has-seperator">
+
+  <h2><i class="icofont-code is-inline"></i>Artefakte und Bewertung </h2>
+  {% capture content %}{% include artefacts-and-evaluation.html %}{% endcapture %}
+  {{ content | markdownify }}
+
+</section>
+
+<section class="section with-bg-gray">
+  <h2><i class="icofont-dart is-inline"></i>Abgeschlossene Arbeiten</h2>
+  <ul data-js-finished-works class="work-overview is-full-width"></ul>
+</section>
+
+<section class="section with-bg-dark">
+  <h2><i class="icofont-magic is-inline"></i>Thema vorschlagen</h2>
+  {% capture content %}{% include suggest-topic.html %}{% endcapture %}
+  {{ content | markdownify }}
+</section>

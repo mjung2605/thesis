@@ -1,0 +1,178 @@
+[
+  {
+    "src": "images/sbrock_10_Software-Hardware-1-s.webp",
+    "metadata": {
+      "Title": "Software-Hardware",
+      "Description": "Auf diesem Bild ist ein PO400 Modular-Synthesizer der Firma Teenage Engineering zu sehen. Neben dem Synthesizer ist eine Nachbildung der im Synthesizer vorhandenen Module im Web-System zu sehen. Alle Module bis auf das \"noise\" und \"random\" Modul sind dabei nachempfunden.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_11_Software-Hardware-2-s.webp",
+    "metadata": {
+      "Title": "Software-Hardware 2",
+      "Description": "Dieses Bild zeigt die Oberfläche der Webanwendung, fotografiert durch die Patchkabel des realen Gegenstücks.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_12_WebAudioAPI-Verbindung-s.webp",
+    "metadata": {
+      "Title": "WebAudioAPI-Verbindung",
+      "Description": "Dieses Bild zeigt den beispielhaften Signalweg von einem Oszillator über einen Filter zum Ausgang der Web Audio API anhand einer Grafik und zugehörigem Code.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 900,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_13_Kommunikationsarchitektur-s.webp",
+    "metadata": {
+      "Title": "Kommunikationsarchitektur",
+      "Description": "Dieses Bild bietet eine Übersicht über die Kommunikationsprinzipien von Komponenten innerhalb des Frontends der Anwendung über State-Speicher und Event-Bus.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1031,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_14_WebsocketServer-inAction-s.webp",
+    "metadata": {
+      "Title": "WebsocketServer in Action",
+      "Description": "Dieses Bild zeigt die Konsolenausgabe des Websocketservers, nachdem eine kollaborative Session gestartet und beendet wurde.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_15_AudioKontext-Initialisierung-s.webp",
+    "metadata": {
+      "Title": "Audiokontext Initialisierung",
+      "Description": "Das Bild zeigt den Codeausschnitt der Anwendung, welcher den Haupt-Audiokontext des Frontends erstellt.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_16_MIDI-Tabelle-s.webp",
+    "metadata": {
+      "Title": "MIDI Tabelle",
+      "Description": "Dieses Bild zeigt Code, welcher einen eingehenden MIDI-Code in die entsprechende Frequenzangabe für diese Note übersetzt und zurückgibt.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_1_Entwicklungsumgebung-s.webp",
+    "metadata": {
+      "Title": "Entwicklungsumgebung",
+      "Description": "Dieses Bild zeigt das Setup für die Entwicklung von Features für die Kollaborative Arbeit im System.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1060,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  },
+  {
+    "src": "images/sbrock_2_Kollaboration-s.webp",
+    "metadata": {
+      "Title": "Kollaboration",
+      "Description": "Auf diesem Bild ist ein Ausschnitt eines Patches zu sehen, auf welchem der Mauszeiger eines Kollaborationspartners einen Regler des Mixer-Moduls bearbeitet.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_3_Performance-Aufnahme-s.webp",
+    "metadata": {
+      "Title": "Performance-Aufnahme",
+      "Description": "Dieses Bild zeigt die Umgebung, in der Videos von Performances anhand der Software aufgenommen wurden. In der Software OBS laufen das Kamerabild und die Bildschirmaufnahme in ein Video zusammen.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_4_MIDI-Modul-s.webp",
+    "metadata": {
+      "Title": "MIDI-Modul",
+      "Description": "Dieses Bild zeigt ein virtuelles MIDI-Modul, welches durch ein via USB angeschlossenes Keyboard Daten entgegen nimmt und einem Oszillator-Modul eine Frequenz übergibt.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_5_Beitrittsanfrage-s.webp",
+    "metadata": {
+      "Title": "Beitrittsanfrage",
+      "Description": "Das Bild zeigt die Beitrittsanfrage eines Kollaborateurs zu einer bestehenden Session. In einem Fenster erhält der Nutzer die Option, den neuen Nutzer anzunehmen oder abzulehnen.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 1060,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_6_Datentransfer-s.webp",
+    "metadata": {
+      "Title": "Datentransfer",
+      "Description": "Auf dieser Übersicht wird der Signalweg einer einzelnen Änderung, ausgehend von der Arbeitsfläche des Nutzers 1 beispielhaft dargestellt.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 870,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_7_Latenz-Test-s.webp",
+    "metadata": {
+      "Title": "Latenz-Test",
+      "Description": "Dieses Bild zeigt zwei Instanzen der Software nebeneinander. Die Entwicklertools des Browsers geben Auskunft über die Latenz zwischen Senden und Empfang von Websocket-Nachrichten.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 883,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_8_Performance-s.webp",
+    "metadata": {
+      "Title": "Performance",
+      "Description": "Dieses Bild zeigt einen Ausschnitt aus einem der Performance-Videos, welche in der Readme-Datei des GitHub Repos verlinkt sind. Der konfigurierte Patch spielt zwei Melodien über Sequencer und erlaubt die Steuerung eines Oszillators über das MIDI-Keyboard, welches im Ausschnitt unten rechts zu sehen ist.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1600,
+      "ImageHeight": 950,
+      "Orientation": "landscape"
+    }
+  },
+  {
+    "src": "images/sbrock_9_Modulübersicht-s.webp",
+    "metadata": {
+      "Title": "Modulübersicht",
+      "Description": "Dieses Bild zeigt die Modul-Leiste des Frontends. Es sind alle im System verfügbaren Module aufgelistet. Außerdem wird in der Navigationsleiste angezeigt, dass das System gerade Teil einer kollaborativen Session ist.",
+      "Rights": "© Sebastian Brock",
+      "ImageWidth": 1060,
+      "ImageHeight": 1600,
+      "Orientation": "portrait"
+    }
+  }
+]
