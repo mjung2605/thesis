@@ -7,6 +7,10 @@ details{
     display: flex;
     list-style: none;
 
+    &::-webkit-details-marker {
+      display: none;
+    }
+
     h3{
       color: var(--color-darkest);
       font-size: calc(var(--size-l) * 0.7);
