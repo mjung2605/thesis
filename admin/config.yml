@@ -26,9 +26,7 @@ collections:
         options: ["proposal", "in-progress", "finished", "unpublished"]
       - label: "Keywords"
         name: "keywords"
-        widget: "list"
-        allow_add: true
-        default: ["Design"]
+        widget: "string"
   - name: 'works'
     label: 'Arbeiten'
     folder: '_works'

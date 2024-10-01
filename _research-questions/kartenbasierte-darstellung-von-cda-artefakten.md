@@ -1,9 +1,9 @@
 ---
-title: Kartenbasierte Darstellung von Artefakten des Cranach Digital Archives
-keywords: Data Visualisation, UX
 layout: work
-status: proposal
+title: Kartenbasierte Darstellung von Artefakten des Cranach Digital Archives
 datum: 15.01.2023
+status: unpublished
+keywords: Data Visualisation, UX
 ---
 
 Die offene Forschungsdatenbank [Cranach Digital Archive](https://lucascranach.org/gallery) umfasst derzeit über 2000 Werke aus dem Werk Lucas Cranachs. Insgesamt kann über das web-basierte Tool auf mehr als 20.000 Bilder zugegriffen werden. 
