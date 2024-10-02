@@ -57,7 +57,7 @@ h2 {
 }
 
 h3 {
-  font-size: var(--size-m);
+  font-size: calc(var(--size-m) * 1.2);
 }
 
 h2 + h3 {
@@ -72,6 +72,17 @@ h3:has(i[class^="icofont-"]) {
   margin-top: var(--size-xl);
 }
 
+.highlighter-rouge + h3{
+  margin-top: var(--size-l);
+}
+
+h4{
+  color: var(--color-darkest);
+}
+
+ul + h4{
+  margin-top: var(--size-l);
+}
 
 p {
   margin-bottom: var(--size-xs);

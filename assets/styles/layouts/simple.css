@@ -22,4 +22,8 @@
       margin-right: var(--size-xs);
     }
   }
+
+  .page{
+    margin-bottom: var(--size-xl);
+  }
 }
