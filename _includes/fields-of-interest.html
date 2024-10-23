@@ -1,5 +1,5 @@
-{% assign topics = site.research-questions | where: "status", "proposal" %}
-{% assign topics = topics | sort: 'datum' %}
+{% assign topics = site.research-questions | where: "status", "proposal" | sort: 'datum'  %}
+
 
 <ul class="topic-overview is-full-width">
 {% for topic in topics %}

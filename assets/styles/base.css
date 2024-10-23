@@ -72,6 +72,7 @@ h3:has(i[class^="icofont-"]) {
   margin-top: var(--size-xl);
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .highlighter-rouge + h3{
   margin-top: var(--size-l);
 }
