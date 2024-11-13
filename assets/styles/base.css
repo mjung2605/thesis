@@ -81,10 +81,14 @@ h4{
   color: var(--color-darkest);
 }
 
+ul + p,
+/* stylelint-disable-next-line no-descending-specificity */
+ul + h3,
 ul + h4{
   margin-top: var(--size-l);
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 p {
   margin-bottom: var(--size-xs);
 }
