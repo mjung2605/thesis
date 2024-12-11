@@ -1,6 +1,27 @@
 const worksDataUrl = "works.json";
 const displayMax = 5;
 
+const formatDate = (date, locale = 'de-DE') => {
+  if (!(date instanceof Date) || isNaN(date)) {
+      throw new Error('Invalid date');
+  }
+
+  // Prüfen, ob toLocaleDateString gut funktioniert
+  try {
+      return date.toLocaleDateString(locale, {
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit'
+      });
+  } catch (e) {
+      // Safari-kompatibler Fallback
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat 0-basiert
+      const day = String(date.getDate()).padStart(2, '0');
+      return `${day}.${month}.${year}`; // Deutsches Datumsformat
+  }
+}
+
 const finishedWorks = () => {
 
   const targetContainer = document.querySelector("[data-js-finished-works]");
@@ -15,8 +36,8 @@ const finishedWorks = () => {
       const items = sortedData.reverse().map((work, index) => {
 
         const date = new Date(work.date);
-        const options = { year: 'numeric', month: 'long' };
-        const formattedDateInGerman = date.toLocaleDateString('de-DE', options);
+
+        const formattedDateInGerman = formatDateForSafari(date, 'de-DE');
         const imageHtml = !work.image.match(/[a-z]/) 
           ? '' 
           : `<img src=".${work.image}" alt="${work.title}">`; 
