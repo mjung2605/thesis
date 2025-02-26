@@ -3,7 +3,7 @@ layout: work-result
 author: Felix Günthner
 title: "Augmented Reality für Flutter Web: Entwicklung eines Plugins anhand
   eines Praxisbeispiels"
-date: October 1, 2023 12:00 AM
+date: 2023-10-01
 type: Bachelorarbeit
 status: Published
 keywords: Flutter, Augmented Reality, AR-Plugin

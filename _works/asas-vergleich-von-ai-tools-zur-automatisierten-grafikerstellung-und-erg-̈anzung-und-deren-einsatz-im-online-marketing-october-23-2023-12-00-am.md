@@ -4,7 +4,7 @@ author: Tobias Rutsch
 related-folder: ""
 title: Vergleich von AI-Tools zur automatisierten Grafikerstellung und
   -ergänzung und deren Einsatz im Online-Marketing
-date: October 23, 2023 12:00 AM
+date: 2023-10-23
 type: Bachelorarbeit
 status: Published
 keywords: KI-Tools, Grafikerstellung, Online-Marketing

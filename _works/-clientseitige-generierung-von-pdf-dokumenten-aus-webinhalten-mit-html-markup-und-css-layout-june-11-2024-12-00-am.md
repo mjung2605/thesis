@@ -3,7 +3,7 @@ layout: work-result
 author: Benedikt Engel
 title: Clientseitige Generierung von PDF-Dokumenten aus Webinhalten mit
   HTML-Markup und CSS-Layout
-date: June 11, 2024 12:00 AM
+date: 2024-06-11
 type: Masterarbeit
 status: Published
 keywords: PDF-Generierung, HTML-Markup, CSS-Layout, clientseitige Bibliothek

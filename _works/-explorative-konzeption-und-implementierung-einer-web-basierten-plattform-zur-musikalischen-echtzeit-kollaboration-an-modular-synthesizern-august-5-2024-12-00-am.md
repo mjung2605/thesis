@@ -4,7 +4,7 @@ author: Sebastian Brock
 related-folder: 2024-brock-sebastian
 title: Explorative Konzeption und Implementierung einer web-basierten Plattform
   zur musikalischen Echtzeit- Kollaboration an Modular-Synthesizern
-date: August 5, 2024 12:00 AM
+date: 2024-08-05
 result-pdf:
   - uploads/ma-sebastian-brock.pdf
 result-website: https://sebastianbroc.github.io/websynth/

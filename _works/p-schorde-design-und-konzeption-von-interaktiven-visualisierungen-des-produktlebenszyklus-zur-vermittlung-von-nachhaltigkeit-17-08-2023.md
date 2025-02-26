@@ -4,7 +4,7 @@ author: Pascal Schorde
 related-folder: p-schorde
 title: " Design und Konzeption von interaktiven Visualisierungen des
   Produktlebenszyklus zur Vermittlung von Nachhaltigkeit"
-date: 17.08.2023
+date: 2023-08-17
 type: Masterarbeit
 keywords: Nachhaltiger Konsum, Agenda 2030, Lebenszyklusanalyse, Visualisierung von Nachhaltigkeitsdimensionen
 partner: Anna Matilda Nowak-Meitinger, Technische Universität Berlin

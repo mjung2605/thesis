@@ -4,7 +4,7 @@ author: Anton Zaitsev
 title: Konzeption und Entwicklung einer Webanwendung zur einfachen Integration
   und Verwaltung von Augmented Reality Inhalten, am Beispiel des
   Kooperationsprojektes «ARlebnispfade OBK»
-date: December 11, 2024 8:30 AM
+date: 2024-12-11
 result-pdf:
   - uploads/ba-thesis-anton-zaitsev-2024-09-18.pdf
 slideshow: false

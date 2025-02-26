@@ -3,7 +3,7 @@ layout: work-result
 author: " Moritz Hendrik Levin Dahlke"
 title: Konzeption und Entwicklung eines Plugins zur automatisierten Moderation
   von Textinhalten durch KI für die WoltLab Suite Community Software
-date: November 1, 2023 12:00 AM
+date: 2023-11-01
 type: Bachelorarbeit
 status: Published
 keywords: Moderation nutzergenerierter Inhalte, Sprachmodelle, automatisierte

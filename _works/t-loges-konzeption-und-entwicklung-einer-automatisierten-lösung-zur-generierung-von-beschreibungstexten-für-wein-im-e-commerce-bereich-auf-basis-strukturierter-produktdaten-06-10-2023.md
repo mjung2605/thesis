@@ -5,7 +5,7 @@ related-folder: t-loges
 title: Konzeption und Entwicklung einer automatisierten Lösung zur Generierung
   von Beschreibungstexten für Wein im E-Commerce Bereich auf Basis
   strukturierter Produktdaten
-date: 06.10.2023
+date: 2023-10-06
 type: Masterarbeit
 keywords: Automatisierte Textgenerierung, Large Language Modelle, E-Commerce Beschreibungstexte, Shopware Plugin
 partner: Heiko Riffeler, gjuce GmbH

@@ -4,7 +4,7 @@ title: Can I CAI? Entwicklung einer Webapp zur Überprüfung von
   Veröffentlichungsprozessen auf Kompatibilität mit aufkommenden Standards der
   Content Authenticity Initiative zur Auszeichnung von authentischen Medien im
   Web.
-date: July 23, 2024 12:00 AM
+date: 2024-07-23
 result-pdf:
   - uploads/polarek-nils-ba-ss24-rev.pdf
 result-repo: https://github.com/n-pola/can-i-cai

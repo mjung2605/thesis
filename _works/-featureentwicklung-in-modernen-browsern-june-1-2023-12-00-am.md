@@ -3,7 +3,7 @@ layout: work-result
 author: Raphael Höser
 related-folder: ""
 title: Featureentwicklung in modernen Browsern
-date: June 1, 2023 12:00 AM
+date: 2023-06-01
 type: Bachelorarbeit
 status: Published
 keywords:

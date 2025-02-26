@@ -4,7 +4,7 @@ author: Maxim Anton Probst
 related-folder: 2022-probst-maxim
 title: Konzeption und Entwicklung einer Vaadin-Applikation zur Modifikation des
   Layouts eines Webklienten im Kontext der Mediengesellschaft RTL
-date: 06.10.2023
+date: 2023-10-06
 type: Bachelorarbeit
 status: Published
 keywords: Web Frontend Development

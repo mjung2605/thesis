@@ -3,7 +3,7 @@ layout: work-result
 author: Florian Michel Berghahn
 title: Partizipative Weiterentwicklung und Veröffentlichung eines
   geräteübergreifenden Browserspiels als Open-Source-Projekt
-date: May 4, 2024 12:00 AM
+date: 2024-04-04
 type: Bachelorarbeit
 status: Published
 keywords: Gerätegrenzenübergreifende Browserspiele, partizipativer

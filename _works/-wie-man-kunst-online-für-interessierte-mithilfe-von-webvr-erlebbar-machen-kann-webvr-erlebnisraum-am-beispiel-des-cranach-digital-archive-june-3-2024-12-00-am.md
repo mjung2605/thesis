@@ -3,7 +3,7 @@ layout: work-result
 author: Valeria Orlova
 title: "Wie man Kunst online für Interessierte mithilfe von WebVR erlebbar
   machen kann: WebVR Erlebnisraum am Beispiel des Cranach Digital Archive"
-date: June 3, 2024 12:00 AM
+date: 2024-06-03
 type: Masterarbeit
 status: Published
 keywords: WebVR, Cranach Digital Archive, UX, Playful Experience

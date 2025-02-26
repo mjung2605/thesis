@@ -3,7 +3,7 @@ layout: work-result
 author: Jan Koll
 title: " Strategien und Methoden zur Reduzierung des Energieverbrauchs in
   Webanwendungen"
-date: January 15, 2024 12:00 AM
+date: 2024-01-15
 type: Masterarbeit
 status: Published
 keywords: Energieeffizienz, Webanwendungen, Energieverbrauch
