@@ -1,26 +1,39 @@
 const worksDataUrl = "works.json";
 const displayMax = 5;
 
-const formatDate = (date, locale = 'de-DE') => {
-  if (!(date instanceof Date) || isNaN(date)) {
-      throw new Error('Invalid date');
-  }
+const formatDateForSafari = (dateString, locale = 'de-DE') => {
 
-  // Prüfen, ob toLocaleDateString gut funktioniert
-  try {
-      return date.toLocaleDateString(locale, {
-          year: 'numeric',
-          month: '2-digit',
-          day: '2-digit'
-      });
-  } catch (e) {
-      // Safari-kompatibler Fallback
-      const year = date.getFullYear();
-      const month = String(date.getMonth() + 1).padStart(2, '0'); // Monat 0-basiert
-      const day = String(date.getDate()).padStart(2, '0');
-      return `${day}.${month}.${year}`; // Deutsches Datumsformat
+  const dateRegex = /^(....)-(.*?)-(.*?) /;
+  const match = dateString.match(dateRegex);
+  
+  if (!match) {
+    return "Ungültiges Datumsformat";
   }
-}
+  
+  const [_, year, month, day] = match;
+  
+  // Mapping von englischen Monatsnamen zu deutschen
+  const monthMapping = {
+    "01": "Januar",
+    "02": "Februar",
+    "03": "März",
+    "04": "April",
+    "05": "Mai",
+    "06": "Juni",
+    "07": "Juli",
+    "08": "August",
+    "09": "September",
+    "10": "Oktober",
+    "11": "November",
+    "12": "Dezember"
+  };
+  
+  // Umwandlung in das Format "11 Dezember 2024"
+  const germanMonth = monthMapping[month] || month;
+  return `${germanMonth} ${year}`;
+};
+
+
 
 const finishedWorks = () => {
 
@@ -35,9 +48,7 @@ const finishedWorks = () => {
       });
       const items = sortedData.reverse().map((work, index) => {
 
-        const date = new Date(work.date);
-
-        const formattedDateInGerman = formatDateForSafari(date, 'de-DE');
+        const formattedDateInGerman = formatDateForSafari(work.date, 'de-DE');
         const imageHtml = !work.image.match(/[a-z]/) 
           ? '' 
           : `<img src=".${work.image}" alt="${work.title}">`; 

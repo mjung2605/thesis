@@ -1,3 +1,5 @@
+/* stylelint-disable CssSyntaxError */
+/* stylelint-disable no-descending-specificity */
 * {
   box-sizing: border-box;
 }
@@ -72,7 +74,7 @@ h3:has(i[class^="icofont-"]) {
   margin-top: var(--size-xl);
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
+
 .highlighter-rouge + h3{
   margin-top: var(--size-l);
 }
@@ -82,13 +84,11 @@ h4{
 }
 
 ul + p,
-/* stylelint-disable-next-line no-descending-specificity */
 ul + h3,
 ul + h4{
   margin-top: var(--size-l);
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 p {
   margin-bottom: var(--size-xs);
 }
@@ -97,12 +97,12 @@ p + h2 {
   margin-top: var(--size-l);
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
+
 p + h3 {
   margin-top: var(--size-l);
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
+
 p + h4 {
   margin-top: var(--size-m);
 }
