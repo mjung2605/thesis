@@ -7,6 +7,8 @@ title: Konzeption und Entwicklung einer automatisierten Lösung zur Generierung
   strukturierter Produktdaten
 date: 2023-10-06
 type: Masterarbeit
+visibility: published
+status: finished
 keywords: Automatisierte Textgenerierung, Large Language Modelle, E-Commerce Beschreibungstexte, Shopware Plugin
 partner: Heiko Riffeler, gjuce GmbH
 partner-url: https://www.gjuce.com

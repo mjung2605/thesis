@@ -1,0 +1,66 @@
+/* State of Work
+############################################################################ */
+.state-of-work {
+  margin-top: var(--size-xl);
+  margin-bottom: var(--size-xxl);
+
+
+  @media screen and (width <= 768px){
+    .hide-on-mobile{
+      display: none;
+    }
+  }
+
+  .capacity-item{
+      display: inline-flex;
+      width: 2.5em;
+      height: 2.5em;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%; /* Macht es rund */
+      aspect-ratio: 1/1;
+      background-color: var(--color-light);
+      text-align: center;
+  }
+
+  .table-container{
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table{
+    width: 100%;
+    max-width: var(--max-width-content);
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    thead{
+      th{
+        min-width: 12ch;
+        padding: 1rem;
+      }
+    }
+
+    tbody{
+      th{
+        min-width: 12ch;
+        text-align: left;
+      }
+
+      td{
+        font-weight: var(--fw-bold);
+        text-align: center;
+      }
+
+      tr{
+        *{
+          padding: 1rem;
+          border-top: dotted var(--border-width)var(--border-color);
+        }
+      }
+    }
+
+
+  }
+
+}

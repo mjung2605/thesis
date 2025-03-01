@@ -5,7 +5,8 @@ title: Konzeption und Entwicklung eines Plugins zur automatisierten Moderation
   von Textinhalten durch KI für die WoltLab Suite Community Software
 date: 2023-11-01
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Moderation nutzergenerierter Inhalte, Sprachmodelle, automatisierte
   Inhaltsmoderation, künstliche Intelligenz
 ---

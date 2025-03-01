@@ -33,8 +33,8 @@ collections:
     folder: '_works'
     create: true
     sortable_fields: ['date', 'title', 'type', 'author']
-    slug: "{{author}}-{{slug}}-{{date}}"
-    summary: "{{date}} {{author}}: {{title}} // {{type}}"
+    slug: "{{date}}-{{author}}"
+    summary: "{{date}} // {{author}} // {{type}}"
     editor:
       preview: false
     fields:
@@ -71,10 +71,17 @@ collections:
       - label: "Status"
         name: "status"
         widget: "select"
-        options: ["in Bearbeitung", "Published", "Unpublished"]
+        options: ["in-preparation", "in-progress", "in-evaluation", "finished"]
+        default: "in-preparation"
+      - label: "Sichtbarkeit"
+        name: "visibility"
+        widget: "select"
+        options: ["published", "unpublished"]
+        default: "unpublished"
       - label: "Keywords"
         name: "keywords"
         widget: "string"
+      - {label: "Erstprüfer", name: "main-examiner", widget: "boolean", default: true}
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"

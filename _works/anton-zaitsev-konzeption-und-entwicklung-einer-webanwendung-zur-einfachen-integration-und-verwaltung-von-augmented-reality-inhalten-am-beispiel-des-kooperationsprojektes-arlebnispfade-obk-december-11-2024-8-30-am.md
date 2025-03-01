@@ -10,7 +10,8 @@ result-pdf:
 slideshow: false
 research-diary: false
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: CMS, AR im Web
 thumbnail: /assets/uploads/photo-log-anton-zaitsev-2024-09-18-10_hubd4f6ee98d8a4fc89b5459d6ffa9f0eb_287524_1600x0_resize_q100_linear.jpg
 ---

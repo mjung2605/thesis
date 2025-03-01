@@ -15,7 +15,8 @@ result-website: https://www.can-i-cai.de
 slideshow: true
 final-presentation: QXwDuePHw5U
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Content Authenticity Initiative (CAI), Generative künstliche
   Intelligenz, Authentizität
 thumbnail: /assets/uploads/polarek-nils-ba-ss24-bilddokumentation-13-s.webp

@@ -6,7 +6,8 @@ title: Konzeption und Entwicklung einer Vaadin-Applikation zur Modifikation des
   Layouts eines Webklienten im Kontext der Mediengesellschaft RTL
 date: 2023-10-06
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Web Frontend Development
 partner: RTL Mediengruppe
 partner-url: https://company.rtl.com/de/homepage/

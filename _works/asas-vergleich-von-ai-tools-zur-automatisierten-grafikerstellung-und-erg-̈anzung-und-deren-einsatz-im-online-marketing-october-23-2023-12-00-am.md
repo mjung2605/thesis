@@ -6,7 +6,8 @@ title: Vergleich von AI-Tools zur automatisierten Grafikerstellung und
   -ergänzung und deren Einsatz im Online-Marketing
 date: 2023-10-23
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: KI-Tools, Grafikerstellung, Online-Marketing
 partner: ""
 partner-url: ""

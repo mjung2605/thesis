@@ -5,7 +5,8 @@ title: Clientseitige Generierung von PDF-Dokumenten aus Webinhalten mit
   HTML-Markup und CSS-Layout
 date: 2024-06-11
 type: Masterarbeit
-status: Published
+visibility: published
+status: finished
 keywords: PDF-Generierung, HTML-Markup, CSS-Layout, clientseitige Bibliothek
 thumbnail: /assets/uploads/c.noss_a_teaser_image_for_a_html_to_pdf_library_where_images_an_63c0185b-ad0b-47b4-851c-0369af67b964.jpg
 ---

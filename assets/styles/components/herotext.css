@@ -1,6 +1,7 @@
 /* Herotext
 ############################################################################ */
 .herotext {
+  margin-bottom: var(--size-xxl );
   font-size: var(--size-m);
   font-weight: var(--fw-normal);
   line-height: var(--lh-default);

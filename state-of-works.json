@@ -1,0 +1,17 @@
+---
+layout: null
+---
+
+[
+{% assign works=site.works %}
+{% for item in  works %}
+{
+  "author": "{{ item.author }}",
+  "date": "{{ item.date }}",
+  "type": "{{ item.type }}",
+  "status": "{{ item.status }}",
+  "visibility": "{{ item.visibility }}"
+}
+{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

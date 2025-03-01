@@ -12,7 +12,8 @@ result-repo: https://github.com/sebastianbroc/websynth
 slideshow: true
 final-presentation: v683mTqOySw
 type: Masterarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Echtzeit-Kollaboration, Modular-Synthesizer, digitale Klangerzeugung,
   Remote-Kollaboration
 thumbnail: /assets/uploads/sbrock_2_kollaboration-s.webp

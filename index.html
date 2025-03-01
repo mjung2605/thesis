@@ -11,10 +11,16 @@ class: grid
 {{ content | markdownify }}
 </div>
 
+<section class="state-of-work">
+  <h2><i class="icofont-chart-pie-alt is-inline"></i>Meine aktuelle Auslastung</h2>
+  {% capture content %}{% include state-of-work.html %}{% endcapture %}
+  {{ content | markdownify }}
+</section>
+
 <section class="section has-seperator">
   <h2><i class="icofont-rocket is-inline"></i>Aktuelle Themenvorschläge</h2>
   {% capture content %}{% include fields-of-interest.html %}{% endcapture %}
-  {{ content | markdownify }}
+  {{ content }}
 </section>
 
 <section class="section" style="margin-top: 3em; ">

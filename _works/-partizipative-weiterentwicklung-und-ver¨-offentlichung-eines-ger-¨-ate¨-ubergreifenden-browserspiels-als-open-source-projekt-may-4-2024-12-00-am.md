@@ -5,7 +5,8 @@ title: Partizipative Weiterentwicklung und Veröffentlichung eines
   geräteübergreifenden Browserspiels als Open-Source-Projekt
 date: 2024-04-04
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Gerätegrenzenübergreifende Browserspiele, partizipativer
   Entwicklungsprozess, Open-Source-Software, Websockets, WebGL
 thumbnail: /assets/uploads/final-blockdown.webp

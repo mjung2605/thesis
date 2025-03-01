@@ -5,7 +5,8 @@ title: "Wie man Kunst online für Interessierte mithilfe von WebVR erlebbar
   machen kann: WebVR Erlebnisraum am Beispiel des Cranach Digital Archive"
 date: 2024-06-03
 type: Masterarbeit
-status: Published
+visibility: published
+status: finished
 keywords: WebVR, Cranach Digital Archive, UX, Playful Experience
 thumbnail: /assets/uploads/c.noss_a_lucas_cranach_exibition_with_paintings_which_are_prese_63eaa10b-fca7-461f-9ea0-ac4dac887979.jpg
 ---

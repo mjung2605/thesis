@@ -4,7 +4,8 @@ author: Dmitrii Kuznetsov
 title: State-of-the-Art approaches to working with sounds on the web
 date: 2023-09-15
 type: Masterarbeit
-status: Published
+visibility: published
+status: finished
 keywords: Webtechnologien, Web Audio API, Audiokomposition, interaktive Webanwendungen
 ---
 Webtechnologien, und insbesondere das Frontend, haben in den letzten zehn Jahren einen enormen Entwicklungssprung gemacht. Heutzutage haben Entwickler

@@ -5,7 +5,8 @@ related-folder: ""
 title: Featureentwicklung in modernen Browsern
 date: 2023-06-01
 type: Bachelorarbeit
-status: Published
+visibility: published
+status: finished
 keywords:
   - Webentwicklung
   - Browser-Kompatibilität
