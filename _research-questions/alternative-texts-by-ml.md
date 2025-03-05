@@ -1,9 +1,9 @@
 ---
-title: Alternativtexte für Bilder via KI
-keywords: Accessibility, KI, Bildanalyse
 layout: work
-status: in-progress
+title: Alternativtexte für Bilder via KI
 datum: 15.01.2023
+status: unpublished
+keywords: Accessibility, KI, Bildanalyse
 ---
 
 Alternativtexte für Bilder auf Websites machen den Inhalt und die Funktion von Bildern für blinde Menschen zugänglich. Außerdem machen sie Bildinhalte für Maschinen zugänglich. Wie ist der Stand der Technik/ Forschung bei der automatischen Erstellung von Alternativtexten?

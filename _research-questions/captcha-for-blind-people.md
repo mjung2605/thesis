@@ -1,9 +1,9 @@
 ---
-title: Capchas für Menschen mit Sehbehinderungen
-keywords: Accessibility, Web-Security, UX
 layout: work
-status: proposal
+title: Capchas für Menschen mit Sehbehinderungen
 datum: 15.01.2023
+status: unpublished
+keywords: Accessibility, Web-Security, UX
 ---
 
 Wie gut lassen sich Captchas (completely automated public Turing test to tell computers and humans apart) von Menschen mit Sehbehinderungen benutzen und wie müsste ein Captcha gestaltet sein, damit es von dieser Nutzergruppe optimal verwendet werden kann?
