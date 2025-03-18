@@ -7,9 +7,10 @@ date: 2025-01-16
 slideshow: false
 research-diary: false
 type: Praxisprojekt
-status: in-evaluation
+status: finished
 visibility: unpublished
 keywords: Typographie, Web, Design
+main-examiner: true
 ---
 Die vorliegende Arbeit befasst sich mit der Entwicklung und Gestaltung einer umfassenden
 Informationsressource, die Einsteigern einen strukturierten Zugang zur Webtypografie
