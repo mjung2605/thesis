@@ -3,7 +3,7 @@ layout: null
 ---
 
 [
-{% assign works=site.works %}
+{% assign works=site.works | where: "visibility","published" %}
 {% for item in  works %}
 {
   "title": "{{ item.title }}",
